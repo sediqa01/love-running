@@ -178,3 +178,11 @@ hr {
     border-radius: 50%;
 
 }
+#times {
+    background-image: url('../images/cn-tower-toronto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
