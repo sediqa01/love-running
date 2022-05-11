@@ -24,6 +24,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 25px;
 }
 
 /* navigation links */
@@ -56,16 +57,19 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image */
+/* hero-image and cover-text*/
 
 #hero-outer {
     height: 600px;
     width: 100%;
-    overflow: hidden;s
+    overflow: hidden;
+}
+#cover-text , #cover-text h2{
+    color: #fff;
 }
 
 #hero-image {
-    height: 600px;
+    height: 550px;
     width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
 
@@ -83,4 +87,47 @@ h1, h2 {
     to{
         transform: scale(1.1);
     }
+}
+#cover-text {
+      font-size: 125%;
+      font-family: oswald , sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+
+      width: 290px;
+      height: 180px;
+      
+      padding-top: 40px ;
+      padding-left:10px;
+      background-color: rgba(241, 109, 107, .7);
+
+      bottom: 20px;
+      right: 180px;
+      position: absolute;
+}
+
+/* club ethos*/
+
+#club-ethos{
+
+    height: 600px;
+}
+
+#left-about{
+    padding-top: 35px;
+    width: 33%;
+    float:left;
+
+}
+#right-about{
+    padding-top: 35px;
+    width: 33%;
+    float:right;
+
+}
+#center-about{
+    width: 33%;
+    margin:0 auto;
+    
+
 }
