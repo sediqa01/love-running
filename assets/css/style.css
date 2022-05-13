@@ -126,13 +126,7 @@ h1, h2 {
     width: 33%;
     margin: 0 auto;
 }
-#times > div {
-    width:100%;
-    clear:both;
-    height: 150px;
-    padding: 0;
 
-}
 hr {
     border-top: 1px solid #3a3a3a ;
    width:100%;
@@ -229,8 +223,8 @@ footer{
     line-height: 0;
     column-count: 3;
     column-gap: 1px;
-  
-    
+
+
 }
 #photos > img{
     width: 100%;
@@ -263,6 +257,11 @@ footer{
         float: left;
         padding: 0;
     }
+    #times > div {
+        width:100%;
+        clear:both;
+        height: 150px;
+        padding: 0; }
 
     hr {
         display: none;
@@ -303,4 +302,5 @@ footer{
         text-align: center;
         padding: 0 20px;
     }
+   
 }
