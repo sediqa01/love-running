@@ -126,7 +126,13 @@ h1, h2 {
     width: 33%;
     margin: 0 auto;
 }
+#times > div {
+    width:100%;
+    clear:both;
+    height: 150px;
+    padding: 0;
 
+}
 hr {
     border-top: 1px solid #3a3a3a ;
    width:100%;
